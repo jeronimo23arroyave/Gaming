@@ -89,3 +89,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                     <a href="javascript:void(0)" id="item_5">ver más</a>
                                                 </div>
                                             </div>
+                                            </li>
+                                        <li>
+                                            <div class="banner_text">
+                                                <h3>JUEGO DEL MES</h3>
+                                                <p>GTA V</p>
+                                                <div class="w3-button">
+                                                    <a href="javascript:void(0)" data-toggle="modal"
+                                                        data-target="#myModal">ver más</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"> </div>
+                                <script src="js/responsiveslides.min.js"></script>
+                                <script>
+                                    // You can also use "$(window).load(function() {"
+                                    $(function () {
+                                        // Slideshow 4
+                                        $("#slider4").responsiveSlides({
+                                            auto: true,
+                                            pager: true,
+                                            nav: true,
+                                            speed: 500,
+                                            namespace: "callbacks",
+                                            before: function () {
+                                                $('.events').append("<li>before event fired.</li>");
+                                            },
+                                            after: function () {
+                                                $('.events').append("<li>after event fired.</li>");
+                                            }
+                                        });
+
+                                    });
+                                </script>
+                                <!--banner Slider starts Here-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //banner -->
