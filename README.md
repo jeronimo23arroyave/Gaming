@@ -1,3 +1,4 @@
 # Gaming
 # Jeronimo Arroyave y Sebastian Restrepo
-file:///C:/Users/USUARIO/Documents/Gaming/index.html
+https://jeronimo23arroyave.github.io/Gaming/
+
